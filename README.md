@@ -1,4 +1,4 @@
-## Recipe Finder 🍴
+# Recipe Finder 🍴
 
 **Recipe Finder** is a web application that allows users to generate creative recipes by entering a list of ingredients. It utilizes AI to craft personalized recipes and provides a user-friendly interface for a seamless experience.
 
