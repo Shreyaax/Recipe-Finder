@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder</title>
+    <link rel="stylesheet" href="/Frontend/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Recipe Finder</h1>
+    </header>
+    <main>
+        <section class="input-section">
+            <div class="input-card">
+                <textarea id="ingredients" placeholder="Enter ingredients separated by commas..."></textarea>
+                <button onclick="findRecipe()">Find Recipe</button>
+            </div>
+        </section>
+        <section id="recipe" class="recipe-output"></section>
+    </main>
+    <footer>
+        <p>Made with ❤️ for all the food lovers out there!</p>
+    </footer>
+    <script src="/Frontend/script.js"></script>
+</body>
+</html>
